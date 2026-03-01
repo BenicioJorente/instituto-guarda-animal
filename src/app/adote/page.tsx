@@ -6,6 +6,7 @@ import Footer from "@/components/Footer";
 import Navbar from "@/components/Navbar";
 import ClubeDoadores from "@/components/ClubeDoadores";
 import WhatsappButton from "@/components/WhatsappButton";
+import ScrollToTopButton from "@/components/ScrollToTopButton";
 
 export default function AdotePage() {
   const [animais, setAnimais] = useState<any[]>([]); 
@@ -186,7 +187,8 @@ export default function AdotePage() {
 
       <ClubeDoadores />
       <Footer />
-      <WhatsappButton/>
+      <WhatsappButton />
+      <ScrollToTopButton />
       
     </div>
   );

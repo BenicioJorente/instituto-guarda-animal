@@ -6,6 +6,7 @@ import Footer from "@/components/Footer";
 import Navbar from "@/components/Navbar";
 import ClubeDoadores from "@/components/ClubeDoadores";
 import WhatsappButton from "@/components/WhatsappButton";
+import ScrollToTopButton from "@/components/ScrollToTopButton";
 
 export default function ComoAjudarPage() {
   const [mostrarMapa, setMostrarMapa] = useState(false);
@@ -167,6 +168,7 @@ export default function ComoAjudarPage() {
       <ClubeDoadores />
       <Footer />
       <WhatsappButton />
+      <ScrollToTopButton />
 
     </div>
   );
